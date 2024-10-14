@@ -77,6 +77,39 @@
 }
 
 
+/* Contact page */
+.label-input{   
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.focus-input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    transition: outline 0.5s ease;
+}
+ input:focus{ 
+    outline: 5px solid rgba(22, 22, 28, 0.4);  
+    color: white;
+
+}
+.icon-contact{
+    width: 25px;
+    height: 25px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+a > i{
+    color: white;
+}
+.icon-contact:hover {
+    transform: scale(1.11);
+    box-shadow: 0 0 5px rgba(255, 255, 255,0.5),
+                0 0 5px rgba(255, 255, 255,0.5),
+                0 0 5px rgba(255, 255, 255,0.5);
+}
 
 
 
